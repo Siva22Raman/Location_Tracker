@@ -1,0 +1,65 @@
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url('wallpaperflare.com_wallpaper\ \(9\).jpg'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; 
+    height: 100%; 
+}
+
+
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Add margin at the bottom */
+}
+
+h1 {
+    margin: 0;
+}
+
+.container, #locationSection, #graphSection {
+    max-width: 500px;
+    color:#fff;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#locationData {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#graphContainer {
+    text-align: center;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+   
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #007bff;
+}
